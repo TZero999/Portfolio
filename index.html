@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta content="text/html" charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="shortcut icon" href="./Images/Logo.svg" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&family=Inter&family=Roboto+Flex:opsz,wght@8..144,100;8..144,700&family=Spinnaker&display=swap" rel="stylesheet"> 
+        
+        <script src="/js/loader.js"></script>
+        
+        <link rel="stylesheet" href="./css/preloader.css">
+        <link rel="stylesheet" href="./css/head.css">
+        <link rel="stylesheet" href="./css/main.css">
+
+        <meta name="description" content="Одностраничное веб-портфолио. Автор: Я.А. Скоробогатый">
+
+        <title>Jaroslaw QA</title>
+    </head>
+
+    <body>
+        
+    <div class="preloader_back">
+        <div class="preloader_row">
+            <div class="preloader_item"></div>
+            <div class="preloader_item"></div>
+        </div>
+    </div>
+
+    <div class="Page">
+
+        <div class="Top_edge"></div>
+              
+        <button class="RUS-ENG Appear" id="RUS-ENG">Rus | Eng</button>
+
+        <div class="Header Appear">
+            <div class="Left_edge"></div>
+            <div class="About_Me">
+                <div id="My_name_is" class="Subtitle-ex1">
+                    <p>Меня зовут</p>
+                </div>
+                <div id="NAME" class="Title">
+                    <p>Ярослав</p>
+                </div>
+                <div id="Welcome" class="Subtitle">
+                    <p>И я рад приветствовать вас на странице своего портфолио.</p>
+                </div>
+                <div id="Who_i_am" class="Subtitle"> 
+                    <p>Я - QA-инженер с более чем 1,5 годами опыта работы.</p>
+                </div>
+            </div>
+
+
+
+            <div class="My_Photo">
+                <button class="Contacts_Button" id="Contacts_Button">Контакты</button>
+                <!-- Photo: SVG or PNG -->
+                <img src="./Images/Photo_plus_Exp.png">
+            </div>
+            <div class="Right_edge"></div>
+        </div>
+
+        <div class="My_Tech Appear Second">
+            <!-- JavaScript -->
+            <button class="Tech_Button Light-black Shadow">JavaScript
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/JS_icon.svg">
+            </button>
+
+            <!-- PostgreSQL -->
+            <button class="Tech_Button Shadow">PostgreSQL
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/PostgreSQL_Icon.svg">
+            </button>
+
+            <!-- CSS -->
+            <button class="Tech_Button Orange Shadow">CSS
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/CSS_Icon.svg">
+            </button>
+
+            <!-- FREE SPACE -->
+            <div class="Free_Space"></div>
+
+            <!-- HTML -->
+            <button class="Tech_Button Shadow">HTML
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/HTML_Icon.svg">
+            </button>
+
+            <!-- Postman -->
+            <button class="Tech_Button Orange Shadow">Postman
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/Postman_Icon.svg">
+            </button>
+
+            <!-- GIT -->
+            <button class="Tech_Button Light-black Shadow">GIT
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/GIT_Icon.svg">
+            </button>
+
+            <!-- JS Auto -->
+            <button class="Tech_Button Shadow">JS Auto
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/JS_Autotests_Icon 1.svg">
+                +
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/JS_Autotests_Icon 2.svg">
+                /
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/JS_Autotests_Icon 3.svg">
+            </button>
+
+            <!-- Linux -->
+            <button class="Tech_Button Orange Shadow">Linux
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/Linux_Icon.svg">
+            </button>
+
+            <!-- Docker -->
+            <button class="Tech_Button Light-black Shadow">Docker
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/Docker_Icon.svg">
+            </button>
+
+            <!-- Jira -->
+            <button class="Tech_Button Shadow">Jira
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/Jira_Icon.svg">
+            </button>
+
+            <!-- API Testing -->
+            <button class="Tech_Button Light-black Shadow">API Testing
+                <img class="Tech_icon" src="./Images/Web-Tech-Logo/API_Icon.svg">
+            </button>
+        </div>
+                
+        <div class="Projects_Title Appear Third" id="Projects">Проекты</div>
+
+        <div class="Projects Appear Third">
+    
+            <!-- Aвтотесты JS -->
+            <div class="Project">
+                <button class="Projects_Button Light-black Shadow">
+                    <a href="placeholder_1"><img class="Projects_Image" src="./Images/Projects/JS+Puppeteer.png"></a>
+                </button>
+                <p class="Projects_Button_Title" id="Project_1_Name">Aвтотесты JS</p>
+                <div class="Project_Number Shadow">01</div>
+            </div>
+
+            <!-- Aртефакты -->
+            <div class="Project Two">
+                <button class="Projects_Button Light-black Shadow">
+                    <a href="placeholder_2"><img class="Projects_Image" src="./Images/Projects/Artifacts.png"></a>
+                </button>
+                <p class="Projects_Button_Title" id="Project_2_Name">Aртефакты</p>
+                <div class="Project_Number Shadow">02</div>
+            </div>
+
+            <!-- Bash-скрипты -->
+            <div class="Project Three">
+                <button class="Projects_Button Light-black Shadow">
+                    <a href="placeholder_3"><img class="Projects_Image" src="./Images/Projects/Bash_Scripts.png"></a>
+                </button>
+                <p class="Projects_Button_Title" id="Project_3_Name">Bash-скрипты</p>
+                <div class="Project_Number Shadow">03</div>
+            </div>
+
+            <!-- QA Библиотека -->
+            <div class="Project Four">
+                <button class="Projects_Button Dark-gray Shadow">
+                    <a href="placeholder_4"><img class="Projects_Image" src="./Images/Projects/QA_Library.png"></a>
+                </button>
+                <p class="Projects_Button_Title" id="Project_4_Name">QA Библиотека</p>
+                <div class="Project_Number Shadow">04</div>
+            </div>
+            
+            <!-- Кодинг -->
+            <div class="Project Five">
+                <button class="Projects_Button Light-black Shadow">
+                    <a href="placeholder_5"><img class="Projects_Image" src="./Images/Projects/JS_Code_Example_2.svg"></a>
+                </button>
+                <p class="Projects_Button_Title" id="Project_5_Name">Кодинг</p>
+                <div class="Project_Number Shadow">05</div>
+            </div>
+        </div>
+        <div class="Projects_Second_Row"></div>
+
+        <div class="Thanks Appear Fourth" id="Thanks">
+
+            <button class="Thanks_Button" id="Thanks_Button">Особая благодарность:</button>
+            <div class="Thanks_Banner" id="Thanks_Banner">
+                
+                <div class="Tanya" id="Tanya">
+                    <a href="https://vk.com/tzeros_princess"><img class="VK_Mini_Icon Indent" src="./Images/Web-Tech-Logo/VK_Mini_Icon.svg"></a>
+                    Татьяна Зыкина - идеи и редактура
+                </div>
+                
+                <div class="Photographer" id="Photographer">
+                    <a href="https://photovalentina.ru/"><img class="VK_Mini_Icon" src="./Images/Web-Tech-Logo/Web_Icon.svg"></a>
+                    <a href="https://vk.com/mn.photography"><img class="VK_Mini_Icon Indent" src="./Images/Web-Tech-Logo/VK_Mini_Icon.svg"></a>
+                    Валентина Мельникова - фотография
+                </div>
+            </div>
+
+        </div>
+
+        <div class="Bottom_edge">
+            
+
+
+            <div class="Contacts" id="Contacts">
+                <div class="Social_Links">
+                    <a href="mailto:skarabahatyyaroslav@gmail.com"><img class="My_Gmail" src="./Images/Web-Tech-Logo/Gmail_Icon.svg"></a>
+                    <a href="https://t.me/TZero_spb"><img class="My_Telegram" src="./Images/Web-Tech-Logo/Telegram_Icon.svg"></a>
+                    <a href="https://vk.com/tzero"><img class="My_VK" src="./Images/Web-Tech-Logo/VK_Icon_Me.svg"></a>
+                    <a href="https://twitter.com/tzero999"><img class="My_Twitter" src="./Images/Web-Tech-Logo/Twitter_Icon.svg"></a>
+                </div>
+                <div class="Phone_Number">
+                    <img class="My_Phone" src="./Images/Web-Tech-Logo/Phone_Icon.svg">
+                    +7 (931) 354-30-81
+                </div>
+            </div>
+        </div>
+        <div class="Bottom_edge"></div>
+    </div>
+
+    <script src="./js/buttons.js"></script>
+    
+</body>

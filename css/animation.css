@@ -1,0 +1,63 @@
+/* Start Animation */
+
+.Appear {
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-name: Appearing;
+}
+
+.Second {
+    animation-delay: 2s;
+}
+
+.Third {
+    animation-delay: 3s;
+}
+
+.Fourth {
+    animation-delay: 4s;
+}
+
+    @keyframes Appearing {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 1;
+        }
+    }
+
+/* 
+
+    .Appear {
+        animation-delay: 1s;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-name: Appearing;
+    }
+
+    .Second {
+        animation-delay: 2s;
+    }
+
+    .Third {
+        animation-delay: 3s;
+    }
+
+    .Fourth {
+        animation-delay: 4s;
+    }
+
+        @keyframes Appearing {
+            from {
+                opacity: 0;
+            }
+        
+            to {
+                opacity: 1;
+            }
+        }
+
+*/
